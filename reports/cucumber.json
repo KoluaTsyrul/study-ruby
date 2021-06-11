@@ -1,0 +1,77 @@
+[
+  {
+    "uri": "features/support/api.feature",
+    "id": "get-user-list",
+    "keyword": "Feature",
+    "name": "Get user list",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "get-user-list;get-users-from-api-call",
+        "keyword": "Scenario",
+        "name": "Get users from API call",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "List of Users",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/api.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19739000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Create user account",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/api.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35779000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

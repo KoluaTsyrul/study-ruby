@@ -1,0 +1,125 @@
+[
+  {
+    "uri": "features/support/sign_in.feature",
+    "id": "sign-in",
+    "keyword": "Feature",
+    "name": "Sign in",
+    "description": "  As a visitor\n  I want to sign in",
+    "line": 1,
+    "elements": [
+      {
+        "id": "sign-in;sign-in-positive-flow",
+        "keyword": "Scenario",
+        "name": "Sign in positive flow",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am not log in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/sign_in.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1700444000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click sign in button",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/sign_in.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124123000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the log in for is opened",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/sign_in.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99840000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I fill valid creds",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/sign_in.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171356000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Click on the login button",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/sign_in.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118250000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I become a log in as \"user\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/sign_in.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32351000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25465000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
